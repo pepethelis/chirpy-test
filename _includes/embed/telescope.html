@@ -1,0 +1,34 @@
+{% assign telesco_id = include.id | default: include.src | strip %}
+{% assign telesco_url = telesco_id %}
+
+{% unless telesco_url contains '://' %}
+  {% assign telesco_url = 'https://telesco.pe/' | append: telesco_id %}
+{% endunless %}
+
+{% assign title_text = include.title | default: 'Telesco video' %}
+{% assign telegram_post = telesco_id %}
+
+{% if telesco_id contains 't.me/' %}
+  {% assign telegram_post = telesco_id | split: 't.me/' | last %}
+{% endif %}
+
+{% if telesco_id contains 'telesco.pe/' %}
+  {% assign telegram_post = telesco_id | split: 'telesco.pe/' | last %}
+{% endif %}
+
+<p>
+  <div>
+    <script
+      async
+      src="https://telegram.org/js/telegram-widget.js?22"
+      data-telegram-post="{{ telegram_post }}"
+      data-width="100%"
+    ></script>
+  </div>
+  {% if include.title %}
+    <em>{{ include.title }}</em>
+  {% endif %}
+  <noscript>
+    <a href="{{ telesco_url }}">Open video</a>
+  </noscript>
+</p>
