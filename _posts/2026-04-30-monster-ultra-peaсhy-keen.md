@@ -1,7 +1,7 @@
 ---
-title: Monster ultra peahy keen
+title: Monster ultra peaсhy keen
 date: 2026-04-30 01:30:00 +0300
-categories: [огляди_від_підписників]
+categories: [огляди від підписників]
 tags: [review, monster, monster/ultra]
 author: skrull
 image: /assets/img/reviews/photo_2026-04-17_09-24-50.jpg

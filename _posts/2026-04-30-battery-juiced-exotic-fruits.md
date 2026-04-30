@@ -1,7 +1,7 @@
 ---
 title: Battery juiced exotic fruits 
 date: 2026-04-30 01:00:00 +0300
-categories: [reviews]
+categories: [власні огляди]
 tags: [review, battery, battery/juiced]
 image: /assets/img/reviews/IMG_0740.jpeg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Monster juiced rio punch (🇫🇷)
 date: 2026-04-30 00:30:00 +0300
-categories: [reviews]
+categories: [власні огляди]
 tags: [review, monster, monster/juiced]
 image: /assets/img/reviews/IMG_1563.jpeg
 pin: true
