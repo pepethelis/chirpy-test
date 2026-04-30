@@ -30,7 +30,7 @@ image: /assets/img/reviews/IMG_0740.jpeg
 {% 
   include embed/video.html 
   src='/assets/vid/reviews/IMG_0729.mp4' 
-  types='mov' 
+  types='mp4' 
   title='Demo video' 
   muted=true 
 %}
